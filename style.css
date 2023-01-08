@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom:10px;
+}
+.banner{
+    background-image: url(images/charity.jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-align: center;
+    background-size: cover;
+}
+
+.banner_content{
+    padding-top: 120px;
+
+}
+
+.banner_button{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 9px;
+}
+.banner_button:hover{
+    background-color: brown;
+    color: cornsilk;
+}
+.donation{
+    text-align: center;
+    margin-top: 5%;
+}
+.donate-amount{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.amount{
+    background-color: rgb(1, 30, 9);
+    padding: 10px;
+    margin-right: 10px;
+    color: red;
+    border: 2px rgb(250, 54, 0) solid ;
+    cursor:pointer
+}
+.active{
+    background-color: rgb(255, 0, 255);
+    color: aliceblue;
+}
+#input_amount{
+    width: 25%;
+    border: none;
+    border-bottom: 4px firebrick floralwhite;
+}
+.amount_button{
+    color: chocolate;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 10px;
+}
+.donationa-plan{
+    margin-top: 5%;
+    text-align: center;
+}
+.flex-container{
+    display: flex;
+    margin-right: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.plan{
+    border: 10px darkturquoise solid;
+    margin-right: 12px;
+    padding: 15px;
+    background-color: darkmagenta;
+}
+.gallery{
+    text-align: center;
+    align-items: center;
+    margin: 0px auto;
+    margin-top: 5%;
+}
+.gallery-row{
+    align-items: center;
+    display: flex;
+}
+.gallery-row img {
+    width: 20%;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+
+footer{
+    padding: 30px;
+    background-color: black;
+    color: coral;
+    text-align: end;
+}
